@@ -1,0 +1,97 @@
+body{
+    background-color: #D7cec7;
+
+}
+.header{
+    background-color:#8e8d8a;
+    height: 45px;
+}
+a{
+    margin-right: 25px;
+    display:inline-block;
+    border-radius:40% ;
+}
+
+h1{
+    color: #76323F;
+    height: 10  0px;
+    font-family: Argent CF;
+}
+.pic{
+    height:90%;
+    width:80%;
+    border-radius: 40px;
+}
+.but button{    
+    border-radius: 40px;
+}
+.row{
+    align-items: center;
+}
+h2{
+    color:#565656;
+    font-family: Roboto;
+}
+p{
+    font-family: Quincy CF;
+}
+.me-section{
+    background-image: url("bg1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-position: center center;
+}
+h4{
+    display: inline-block;
+    background-color: #565656;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin:5px;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.pro h4{
+    display: inline-block;
+    background-color: #565656;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin:5px;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img{
+    height:450px ;
+    width: 720px;
+}
+input{
+    width:500px; 
+}
+.info {
+    height: 100px;
+    width: 500px;
+    font-size: 16px; 
+    padding: 5px; 
+  }
+  .contact{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      padding: 20px;
+  }
+  .size{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  .size{
+    width: 240px;
+  }
+  .foot{
+    background-color:#8e8d8a;
+    color:white;
+  }
