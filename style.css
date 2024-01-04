@@ -18,8 +18,8 @@ h1{
     font-family: Argent CF;
 }
 .pic{
-    height:90%;
-    width:80%;
+    max-width: 100%;
+    height: auto;
     border-radius: 40px;
 }
 .but button{    
