@@ -69,15 +69,15 @@ h4{
     margin-inline-end: 0px;
 }
 img{
-    height:450px ;
-    width: 720px;
+    height:50%;
+    width: 75%;
 }
 input{
-    width:500px; 
+    width:60%; 
 }
 .info {
-    height: 100px;
-    width: 500px;
+    height: 40%;
+    width: 30%;
     font-size: 16px; 
     padding: 5px; 
   }
@@ -88,9 +88,7 @@ input{
   .size{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
-  .size{
-    width: 240px;
-  }
+
   .foot{
     background-color:#8e8d8a;
     color:white;
