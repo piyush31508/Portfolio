@@ -9,7 +9,7 @@ function App() {
       <Toaster />
       <BrowserRouter>
         <Routes>
-          <Route path="/portfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
