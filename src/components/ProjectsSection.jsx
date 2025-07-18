@@ -80,7 +80,7 @@ export const ProjectsSection = () => {
 
               <div className="flex flex-col justify-between flex-1 p-6">
                 <div>
-                  <div className="flex flex-wrap gap-2 justify-start mb-4">
+                  <div className="flex flex-wrap gap-2 justify-center mb-4">
                     {project.tags.map((tag, idx) => (
                       <span
                         key={idx}
@@ -94,7 +94,7 @@ export const ProjectsSection = () => {
                   <p className="text-sm text-left text-muted-foreground">{project.description}</p>
                 </div>
 
-                <div className="flex items-center space-x-4 mt-6">
+                <div className="flex items-center justify-center space-x-4 mt-6">
                   {project.demoUrl !== "#" && (
                     <a
                       href={project.demoUrl}
