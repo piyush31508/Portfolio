@@ -51,7 +51,7 @@ export const AboutSection = () => {
                 rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 font-medium transition-all duration-300"
               >
-                View CV
+                CV
               </a>
             </div>
           </motion.div>
