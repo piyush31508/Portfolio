@@ -3,14 +3,15 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import path from "path"
 
-// https://vite.dev/config/
 export default defineConfig({
-  base : "/Portfolio/",
+  base: "/Portfolio/", // Make sure this matches your repo name exactly (case-sensitive!)
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
-      // eslint-disable-next-line no-undef
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    outDir: 'docs', // 👈 Important for GitHub Pages deployment from main branch
   },
 })
