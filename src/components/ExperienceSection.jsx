@@ -10,6 +10,51 @@ export const ExperienceSection = () => {
 
         <div className="relative border-l border-primary/30 pl-6 space-y-12">
 
+          
+
+          {/* TCBT Jaivik Kishan Pvt. Ltd. */}
+          <div className="group relative">
+            <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center text-white shadow-md">
+              <Briefcase size={16} />
+            </div>
+            <div className="bg-card p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+              <div className="flex justify-between items-center mb-1">
+                <h3 className="text-xl font-semibold">
+                  Full Stack Developer Intern –{" "}
+                  <span className="text-primary">TCBT Jaivik Kishan Pvt. Ltd.</span>
+                </h3>
+                <span className="text-sm text-muted-foreground">
+                  November 2025 – Present
+                </span>
+              </div>
+
+              <p className="text-muted-foreground text-left mb-3">
+                Built and customized 15+ dynamic pages using Zoho Commerce & Zoho Sites.
+                Developed a Node.js service integrating ShipMozo APIs that automated 80%+ 
+                of shipment and order updates. Implemented Zoho Flow automations sending 
+                real-time order notifications to 50+ customers monthly. Created scripts 
+                to dynamically fetch and render the latest 12 YouTube videos on the site.
+              </p>
+
+              <div className="flex flex-wrap gap-2 text-sm mb-4">
+                <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">Node.js</span>
+                <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">Zoho Commerce</span>
+                <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">API Automation</span>
+              </div>
+
+              <div className="flex flex-wrap gap-4 justify-center">
+                <a
+                  href="https://tcbt.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+                >
+                  Visit Website <ExternalLink className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
+          </div>
+
           {/* Harsh Hasthkala */}
           <div className="group relative">
             <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center text-white shadow-md">
@@ -101,49 +146,6 @@ export const ExperienceSection = () => {
                   className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
                 >
                   LinkedIn <Linkedin className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* TCBT Jaivik Kishan Pvt. Ltd. */}
-          <div className="group relative">
-            <div className="absolute -left-3 top-1 w-6 h-6 rounded-full bg-primary flex items-center justify-center text-white shadow-md">
-              <Briefcase size={16} />
-            </div>
-            <div className="bg-card p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
-              <div className="flex justify-between items-center mb-1">
-                <h3 className="text-xl font-semibold">
-                  Full Stack Developer Intern –{" "}
-                  <span className="text-primary">TCBT Jaivik Kishan Pvt. Ltd.</span>
-                </h3>
-                <span className="text-sm text-muted-foreground">
-                  November 2025 – Present
-                </span>
-              </div>
-
-              <p className="text-muted-foreground text-left mb-3">
-                Built and customized 15+ dynamic pages using Zoho Commerce & Zoho Sites.
-                Developed a Node.js service integrating ShipMozo APIs that automated 80%+ 
-                of shipment and order updates. Implemented Zoho Flow automations sending 
-                real-time order notifications to 50+ customers monthly. Created scripts 
-                to dynamically fetch and render the latest 12 YouTube videos on the site.
-              </p>
-
-              <div className="flex flex-wrap gap-2 text-sm mb-4">
-                <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">Node.js</span>
-                <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">Zoho Commerce</span>
-                <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">API Automation</span>
-              </div>
-
-              <div className="flex flex-wrap gap-4 justify-center">
-                <a
-                  href="https://tcbt.in/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
-                >
-                  Visit Website <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
             </div>
